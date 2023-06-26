@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  border: 1px solid gray;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  background-color: red;
+  border: 1px solid black;
+  margin: 1rem;
+  width: 100px;
+  height: 100px;
+}
+
+.ord1 {
+  order: 3;
+  flex-grow: 2;
+}
+
+.ord2 {
+  flex-grow: 2;
+}
